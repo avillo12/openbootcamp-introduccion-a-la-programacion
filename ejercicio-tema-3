@@ -1,0 +1,25 @@
+public class Main
+{
+    public static void main(String[] args) {
+        
+        //parte 1
+        int resultado = suma(1,2,3);
+        System.out.println(resultado);
+        
+        //parte 2
+        coche miCoche = new coche(); 
+        miCoche.puertas = 5;
+        System.out.println(miCoche.puertas);
+    }
+    
+    public static int suma (int a, int b, int c){
+        return a+b+c;
+        
+    }
+}
+
+class coche {
+    public int puertas = 0;
+    
+    
+}
