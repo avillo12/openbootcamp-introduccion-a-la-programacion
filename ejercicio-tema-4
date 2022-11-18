@@ -3,7 +3,6 @@ public class Main
     public static void main(String[] args) {
         int numeroIf = 0; 
         int numeroWhile = 0;
-        int numeroFor = 0;
         var estacion = "primavera";
 
         if(numeroIf < 0){
@@ -25,8 +24,7 @@ public class Main
             numeroWhile = numeroWhile + 1;
         }while(numeroWhile<3);
         
-        for(; numeroFor <= 3; ){
-            numeroFor++;
+        for(numeroFor = 0; numeroFor <= 3; numeroFor++){
             System.out.print(numeroFor);
         }
         
